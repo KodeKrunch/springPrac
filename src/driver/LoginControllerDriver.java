@@ -19,9 +19,9 @@ public class LoginControllerDriver {
 		String password = req.getParameter("password");
 		
 		String url="jdbc:mysql://localhost:3306/college";
-        String uN="root";
-        String pw="root.root";
-		
+        	String uN="root";
+        	String pw="root.root";
+			
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
 		Connection connection = DriverManager.getConnection(url, uN, pw);
